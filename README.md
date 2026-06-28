@@ -18,6 +18,3 @@ To model and stress-test portfolio risk through return analysis, correlation str
 ## Tech Stack
 - Python 3.14
 - yfinance, pandas, numpy, matplotlib, seaborn, scipy
-
-## Author
-Martina Gori — incoming MEng ORIE, Cornell Tech
