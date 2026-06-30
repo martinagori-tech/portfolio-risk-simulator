@@ -30,3 +30,14 @@ plt.ylabel("Frequency")
 plt.legend()
 plt.tight_layout()
 plt.savefig("montecarlo_var.png")
+
+#95 model confidence
+VaR_95_historical = np.percentile(returns.values, 5)
+print("VaR storico al 95%:", VaR_95_historical)
+print("VaR parametrico al 95%:", VaR_95)
+
+#99 model confidence
+VaR_99_historical = np.percentile(returns.values, 1)
+VaR_99_parametric = np.percentile(simulated_returns, 1)
+print("VaR storico al 99%:", VaR_99_historical)
+print("VaR parametrico al 99%:", VaR_99_parametric)
