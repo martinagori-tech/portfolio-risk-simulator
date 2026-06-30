@@ -14,6 +14,8 @@ To model and stress-test portfolio risk through return analysis, correlation str
 ## Key Findings (so far)
 - S&P 500 shows a near-normal return distribution with fat tails — extreme events like the April 2025 tariff shock (-6% in a single day) are more frequent than classical models predict
 - In the 2024–2026 period, S&P 500, Gold, and Bonds shorrelations, suggesting genuine diversification benefits
+- At the 95% confidence level, parametric (normal distribution) VaR closely matches historical VaR (-1.56% vs -1.56%)
+- At the 99% confidence level, the gap widens: historical VaR (-2.71%) is notably worse than parametric VaR (-2.22%), confirming the fat-tail behavior observed in the return distribution — the normal model underestimates extreme risk
 
 ## Tech Stack
 - Python 3.14
